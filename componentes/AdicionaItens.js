@@ -26,8 +26,15 @@ class AdicionaItens extends React.Component{
 
     render(){
         return(
-            <View>
-
+            <View style={styles.conteudoPrincipal}>
+                <Text style={styles.titulo}>Adicionar item</Text>
+                <TextInput style={styles.itemInput} onChangeText={item => {this.setState({item})}}/>
+                <TouchableHighlight
+                    style={styles.btn}
+                    underlayColor="white"
+                    onPress={this.SalvaItem}>
+                    <Text style={styles.textoBtn}>Adicionar</Text>
+                </TouchableHighlight>                
             </View>
         )
     }
