@@ -8,7 +8,7 @@ import{
     Alert
 } from 'react-native';
 
-import {db} from './config/config';
+import {db} from '../config/config';
 
 class AdicionaItens extends React.Component{
     State = {
