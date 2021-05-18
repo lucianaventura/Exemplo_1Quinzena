@@ -4,9 +4,9 @@ import { StyleSheet, Text, View } from 'react-native';
 import 'react-native-gesture-handler';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import Inicial from 'componentes/Inicial';
-import AdicionaItens  from 'componentes/AdicionaItens';
-import ListaItens from 'componentes/ListaItens';
+import Inicial from './componentes/Inicial';
+import AdicionaItens  from './componentes/AdicionaItens';
+import ListaItens from './componentes/ListaItens';
 
 const Stack = createStackNavigator();
 
