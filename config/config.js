@@ -10,5 +10,6 @@ import	firebase	from	'firebase';
   };
   
   
+  
   let app = firebase.initializeApp(firebaseConfig);
   export const db  = firebase.firestore()//app.database();
